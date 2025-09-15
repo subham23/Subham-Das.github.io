@@ -842,16 +842,65 @@ ul.icons li .icon:before {
 /* New CV Section Styling */
 .cv-section-container {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     margin-top: 2em;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column; /* Stacks text above the image */
+    align-items: center; /* Centers text and image horizontally */
+    text-align: center;
+    margin: 1em; /* Adds space between the two items */
+    max-width: 450px; /* Adjust as needed */
+}
+
+.about-text-content {
+    margin-bottom: 1em; /* Space between text and image */
+}
+
+.about-text-content h3 {
+    margin: 0 0 0.25em 0;
+}
+
+.about-text-content p {
+    margin: 0;
+}
+
+.image-link {
+    display: block;
+    line-height: 0;
+    border-bottom: none !important;
+}
+
+.thumbnail {
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 736px) {
+    .about-images-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .cv-image-link {
-    display: block;
+    /* display: block; */
     margin-right: 1.5em;
-    border-bottom: none !important;
-    line-height: 0;
+    /* border-bottom: none !important;
+    line-height: 0; */
 }
 
 .cv-thumbnail {
@@ -1292,3 +1341,55 @@ body[data-theme="dark"] #profile-pic img {
     content: url("images/profile_pic_dark.jpg");
 }
 */
+
+/* Container to make images side-by-side */
+.about-images-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    gap: 2em;
+}
+
+/* Individual item container for each image/text block */
+.about-item {
+    display: flex;
+    flex-direction: column; /* Stacks text above the image */
+    align-items: center; /* Centers the content */
+    text-align: center;
+    max-width: 450px;
+    flex-grow: 1;
+}
+
+.about-text-content {
+    margin-bottom: 1em; /* Space between text and image */
+}
+
+/* Base styles for images within the new section */
+.thumbnail {
+    width: 100%; /* Makes image fill the container */
+    max-width: 450px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 736px) {
+    .about-images-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+    .about-item {
+        max-width: 100%;
+        margin: 0;
+    }
+}
