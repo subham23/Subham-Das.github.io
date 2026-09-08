@@ -5,6 +5,7 @@
     <title>Subham Das</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="Subham Das — Mechanical Engineering Ph.D. candidate at Purdue University working on nanoscale mechanics, metrology, and characterization of nanoparticle drug-delivery systems." />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" type="image/svg+xml" href="images/tab_icon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,8 +29,8 @@
                     <li><a href="#research">Research Area</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#education">Education</a></li>
-                    <li><a href="#patent">Patents</a></li>
                     <li><a href="#pub">Publications</a></li>
+                    <li><a href="#patent">Patent Applications</a></li>
                     <li><a href="#skill">Skills</a></li>
                     <li><a href="#award">Awards/Co-curricular/Teaching</a></li>
                 </ul>
@@ -43,7 +44,7 @@
             <header class="major">
                 <h2>ABOUT ME</h2>
             </header>
-            <p><b>Subham Das</b> is a 2<sup>nd</sup> year PhD student working as a Graduate Research Assistant at Purdue University, West Lafayette, with 4+ years of research experience in healthcare innovation, including intrathecal drug delivery systems and assistive technologies. Proven track record of securing patents, publishing in top-tier journals, and mentoring students. Currently contributing to the Eli Lilly-Purdue collaboration for advanced drug delivery solutions.</p>
+            <p><b>Subham Das</b> is a Mechanical Engineering Ph.D. candidate (expected April 2028) and Graduate Research Assistant in the Multiphysics Vibrations Lab at Purdue University, West Lafayette. His research focuses on nanoscale mechanics, metrology, and biophysical/analytical characterization of nanoparticle drug-delivery systems &mdash; AFM force spectroscopy, s-SNOM/nano-FTIR chemical mapping, and Python image-analysis pipelines &mdash; and supports the Lilly Purdue Innovation Institute (LPII) Genetic Medicine program. With 4+ years of healthcare R&amp;D across academia&ndash;industry teams, from assistive devices developed with clinicians to measurement science, he has authored 13 peer-reviewed journal articles (8 first/co-first author) and 8 patent applications, with 140+ citations, and mentors undergraduate researchers.</p>
             
             <div class="about-images-container">
                 <div class="about-item">
@@ -51,6 +52,7 @@
                         <h3>Curriculum Vitae</h3>
                         <p>Click on the image to view my detailed CV.</p>
                     </div>
+                    <!-- TODO: replace the Drive file with the new CV PDF (or update this link) -->
                     <a href="https://drive.google.com/file/d/13tw0VPf_9Xz6GKINUrI7kXk7ZeEYaeny/view?usp=drive_link" target="_blank" class="image-link">
                         <img src="images/cv.jpg" alt="Curriculum Vitae" class="thumbnail">
                     </a>
@@ -73,10 +75,10 @@
                 <h2>RESEARCH AREA</h2>
             </header>
             <ul class="research-grid">
-                <li>Material characterization</li>
-                <li>Nanotechnology</li>
-                <li>Flexible electronics</li>
-                <li>Metrology</li>
+                <li>Nanomechanics &amp; metrology of soft nanoparticles</li>
+                <li>Nanoscale chemical imaging (s-SNOM/nano-FTIR)</li>
+                <li>Nanoparticle drug-delivery characterization</li>
+                <li>Bioinstrumentation &amp; flexible sensors</li>
             </ul>
         </section>
 
@@ -89,10 +91,11 @@
                     <h3>Multiphysics Vibrations Lab (MVL), Purdue University</h3>
                     <span class="item-meta"><strong>Jan. 2024 - Present | West Lafayette, IN </strong></span>
                 </div>
-                <p class="job-title">Graduate Research Assistant, Supervised by Dr. Ryan Wagner (School of Mechanical Engineering)</p>
+                <p class="job-title">Graduate Research Assistant, Supervised by Dr. Ryan Wagner (School of Mechanical Engineering) | Lilly Purdue Innovation Institute (LPII) Genetic Medicine program; research supported by Eli Lilly and Company</p>
                 <ul>
-                    <li>Developing novel nanoparticle characterization techniques for improved delivery of injectable medicines
-with the goal of enabling better patient compliance as a part of the Eli Lilly-Purdue research collaboration. Conducting mechanical and chemical characterization of nanoparticles using AFM and NanoFTIR, to elucidate fundamental properties of measurement tools and inform nanoparticle-based drug design.</li>
+                    <li>Developed and validated an AFM force-spectroscopy protocol that quantifies nanoparticle deformability as a batch-consistency attribute; adopted by the LPII Genetic Medicine program for experimental formulations. Screened 7 substrate/environment preparations to set measurement conditions, demonstrated reproducibility across independent preparations, and validated fast force mapping at 120&times; the ramp rate of standard force mapping with no change in measured modulus.</li>
+                    <li>Quantified the shape and effective modulus of Doxil-like liposomal doxorubicin nanoparticles using JKR contact-mechanics fitting with Monte Carlo uncertainty analysis: showed particle integrity is hydration-dependent (27 &plusmn; 6 nm in PBS vs. 3 &plusmn; 1 nm in air) and that calibration uncertainty exceeds particle-to-particle variation, which the protocol removes from batch comparisons by same-probe, side-by-side measurement (first-author paper, <em>Langmuir</em> 2026; oral presentation, MRS Spring Meeting 2026).</li>
+                    <li>Built a Python image-analysis pipeline (NumPy/SciPy/scikit-image) to quantify the surface chemistry of drug-delivery nanoparticles from attocube s-SNOM/nano-FTIR chemical maps, supporting formulation development; selected the analysis method by empirical false-positive rate (&asymp;20&times; fewer false detections than alternatives) and automated batch processing of &gt;180 datasets.</li>
                 </ul>
             </div>
 
@@ -103,19 +106,19 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                 </div>
                 <p class="job-title">Junior Research Fellow, Supervised by Dr. Mitradip Bhattacharjee (Dept. of EECS)</p>
                 <ul>
-                    <li>Designed and optimized flexible sensors for multi-modal sensing in assistive healthcare, integrating deep learning algorithms to enhance system intelligence, leading to multiple publications and patent applications.</li>
+                    <li>Developed a microfluidic sensing platform with integrated biological-signal processing, achieving &gt;90% biomarker-detection accuracy validated on 50 subjects; designed and optimized flexible sensors for multimodal sensing in assistive healthcare, leading to multiple publications and patent applications.</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="item-header">
                     <h3>Intisen Pvt. Ltd.</h3>
-                    <span class="item-meta"><strong>Aug. 2022 - Nov. 2023 | Bhopal, India (Remote)</strong></span>
+                    <span class="item-meta"><strong>Aug. 2022 - Nov. 2023 | Bhopal, India (Remote, part-time)</strong></span>
                 </div>
                 <p class="job-title">Product Design and Development Intern</p>
                 <ul>
-                    <li>Engineered and prototyped assistive healthcare solutions, including flexible health bands and wearable therapeutic devices, yielding 4 patented designs. Collaborated with medical professionals and research groups to improve patient engagement and data accessibility.</li>
-                    
+                    <li>Designed and prototyped 4 patent-pending assistive healthcare devices (flexible health bands, wearable therapeutic devices) through iterative user-centered testing; in an evaluation by a panel of 10 clinicians, &gt;80% rated the devices an improvement over existing methods.</li>
+                    <li>Integrated real-time physiological monitoring into flexible wearable platforms through iterative clinician feedback, enabling continuous data capture and reducing manual assessment time by 50%.</li>
                 </ul>
             </div>
 
@@ -126,7 +129,7 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                 </div>
                 <p class="job-title">Supervised by Dr. Mitradip Bhattacharjee (Dept. of EECS)</p>
                 <ul>
-                    <li>Developed a coupled tactile-temperature sensor wearable glove capable of terrain identification through analysis of surface pressure profiles and radiated heat. Published thesis work in IEEE Sensors journal and patented design of pressure sensor.</li>
+                    <li>Developed a coupled tactile&ndash;temperature sensing glove for terrain identification from surface pressure profiles and radiated heat, achieving 90% classification accuracy; published as first author in IEEE Sensors Journal (2025), with the pressure-sensor design filed as a patent application.</li>
                 </ul>
             </div>
 
@@ -135,7 +138,7 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                     <h3>Wearable Printed Sensors for Monitoring Patient Health - Internship</h3>
                     <span class="item-meta"><strong>May 2022 - Aug. 2022 | University of Western Ontario, Canada</strong></span>
                 </div>
-                <p class="job-title">Supervised by Dr. George Knopf (Dept. of Mechanical and Materials Engineering)</p>
+                <p class="job-title">Supervised by Dr. George Knopf (Dept. of Mechanical and Materials Engineering) | MITACS Globalink Research Internship</p>
                 <ul>
                     <li>Fabricated a chip-less, RLC-based readout system (13.56 MHz RFID) for a multi-purpose printable electronic sensor circuit, demonstrating feasibility for low-cost health monitoring.</li>
                 </ul>
@@ -148,7 +151,7 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                 </div>
                 <p class="job-title">Supervised by Dr. Mitradip Bhattacharjee (Dept. of EECS)</p>
                 <ul>
-                    <li>Developed a smartphone application providing data for four diagnostics (heart rate, oxygen level, blood pressure, temperature) and predicting arrhythmia and anemia with 90% preliminary accuracy using image processing and a custom-designed PCB.</li>
+                    <li>Developed a smartphone application and custom-designed PCB providing four diagnostics (heart rate, oxygen saturation, blood pressure, temperature) and screening for arrhythmia and anemia with 90% preliminary accuracy using image processing; anemia work published in IEEE Sensors Letters (2022).</li>
                 </ul>
             </div>
 
@@ -157,9 +160,9 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                     <h3>Database of Synthetic Logic Gates - Internship</h3>
                     <span class="item-meta"><strong>May 2021 - Dec. 2021 | IMSc Chennai, India</strong></span>
                 </div>
-                <p class="job-title">Supervised by Dr. Areejit Samal (Dept. of Computational Biology)</p>
+                <p class="job-title">Supervised by Dr. Areejit Samal (Dept. of Computational Biology) | Indian Academy of Sciences Summer Research Fellowship</p>
                 <ul>
-                    <li>Developed an NLTK-based database compiling information on 750+ synthetic logic gates discovered to date.</li>
+                    <li>Developed an NLTK-based database compiling information on 750+ synthetic logic gates reported to date.</li>
                 </ul>
             </div>
         </section>
@@ -171,60 +174,62 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
             <div class="education-item">
                 <div class="item-header">
                     <h3>Purdue University</h3>
-                    <span class="item-meta"><strong>Dec. 2028 | West Lafayette, IN</strong></span>
+                    <span class="item-meta"><strong>Jan. 2024 - Expected Apr. 2028 | West Lafayette, IN</strong></span>
                 </div>
-                <p class="degree">PhD Scholar, School of Mechanical Engineering (GPA: 3.65/4)</p>
+                <p class="degree">Ph.D., Mechanical Engineering (Multiphysics Vibrations Lab), GPA: 3.65/4</p>
             </div>
             <div class="education-item">
                 <div class="item-header">
                     <h3>Indian Institute of Science Education and Research Bhopal</h3>
-                    <span class="item-meta"><strong>June 2023 | Madhya Pradesh, India</strong></span>
+                    <span class="item-meta"><strong>Aug. 2018 - June 2023 | Bhopal, India</strong></span>
                 </div>
-                <p class="degree">BS-MS Electrical Engineering & Computer Science (Minor: Biological Sciences), (GPA: 9.46/10)</p>
+                <p class="degree">BS-MS, Electrical Engineering &amp; Computer Science (Minor: Biological Sciences), GPA: 9.46/10</p>
             </div>
-        </section>
-
-        <section id="patent">
-            <header class="major">
-                <h2>PATENTS</h2>
-            </header>
-            <ol class="patent-list">
-                <li>M. Bhattacharjee, <u><strong>S. Das</strong></u>, "A detection system based on colorimetric analysis", (Application Number: 202421008300), 2024.</li>
-                <li>M. Bhattacharjee, C. Das, <u><strong>S. Das</strong></u>, V. Chugh, "Substrateless device", (Application Number: 202421018569), 2024.</li>
-                <li>M. Bhattacharjee, <u><strong>S. Das</strong></u>, A. Krishnan "Multi-sensor monitoring system", (Application Number: 202421022245), 2024.</li>
-                <li>M. Bhattacharjee, <u><strong>S. Das</strong></u>, L. Singh "Micro/nanostructured flexible multilayered sensors", (Application Number: 202421033902), 2024.</li>
-                <li>A. Patra, M. Bhattacharjee, T. Kumar Dutta, <u><strong>S. Das</strong></u>, "A smart electronic safety system", (Application Number: 202421031809), 2024.</li>
-                <li>A. Patra, M. Bhattacharjee, M. Sarkar, A. Krishnan, <u><strong>S. Das</strong></u>, "A self-sustainable photoelectric converter for electrochromic system", (Application Number: 202421047377), 2024.</li>
-                <li>M. Bhattacharjee, A. Siddiqui, <u><strong>S. Das</strong></u>, A. Kumar "A multi-organ theranostic body wearable device", (Application Number: 202421006385), 2023.</li>
-                <li>M. Bhattacharjee, <u><strong>S. Das</strong></u>, "Image sensing assisted health monitoring system and method thereof", (Application Number: 202421030501), 2023.</li>
-            </ol>
         </section>
 
         <section id="pub">
             <header class="major">
                 <h2>PUBLICATIONS</h2>
             </header>
+            <p>13 peer-reviewed journal articles (8 first/co-first author), 3 conference presentations, and 8 patent applications; 140+ citations (<a href="https://scholar.google.com/citations?user=hoQ5pN0AAAAJ&amp;hl=en" target="_blank">Google Scholar</a>, <a href="https://orcid.org/0000-0001-9819-3573" target="_blank">ORCID</a>). <sup>#</sup> denotes equal contribution.</p>
             <h3>Journal Article(s)</h3>
             <ol class="publication-list">
-                <li><u><strong>S. Das</strong></u>, R. Wagner, "Complex Deformation Characteristics of Liposomes during Atomic Force Microscopy Force Curves", ACS Biomacromolecules (<strong>Submitted</strong>)</li>
-                <li><u><strong>S. Das</strong></u>, K. Thiyagarajan, S. Kodagoda, A. Krishnan, M. Bhattacharjee, "A Novel Tactile Sensing Skin for Surface Perception", IEEE Sensors Journal (<a href="https://doi.org/10.1109/JSEN.2025.3565586" target="_blank">doi:10.1109/JSEN.2025.3565586</a>)</li>
-                <li><u><strong>S. Das</strong></u>, A. Shrivas, P. Soni, A. Gupta, S. Singh, M. Bhattacharjee, "Quantitative Image Sensing of Tuberculosis Biomarkers Using Rapid Diagnostic Test Kit", IEEE Sensors Journal (<a href="https://doi.org/10.1109/JSEN.2024.3523750" target="_blank">doi:10.1109/JSEN.2024.3523750</a>)</li>
-                <li>H. Gadalla, Z. Yuan, Z. Chen, F. Alsuwayyid, <u><strong>S. Das</strong></u>, H. Mitra, A. Ardekani, R. Wagner, Y. Yeo, "Effects of nanoparticle deformability on multiscale biotransport", Advanced Drug Delivery Reviews (<a href="https://doi.org/10.1016/j.addr.2024.115445" target="_blank">doi:10.1016/j.addr.2024.115445</a>)</li>
-                <li>T. Dutta, <u><strong>S. Das</strong></u>, M. Sarkar, M. Bhattacharjee, A. Patra, "Multistate Electrochromic Covalent Organic Framework Film for Electronic Safety Indicator", ACS Chemistry of Materials (<a href="https://doi.org/10.1021/acs.chemmater.4c00399" target="_blank">doi:10.1021/acs.chemmater.4c00399</a>)</li>
-                <li>A. Siddiqui, <u><strong>S. Das</strong></u>, M. Bhattacharjee, "Nanofillers Embedded Flexible Piezoelectric Polymer Sensor Pad for Robotic and Human Finger Tap Analysis", Sensors and Actuators A: Physical (<a href="https://doi.org/10.1016/j.sna.2024.115503" target="_blank">doi:10.1016/j.sna.2024.115503</a>)</li>
-                <li>C. Das, <u><strong>S. Das</strong></u>, V. Chugh, M. Bhattacharjee, "Smart 3D Printed Design Assisted Multi-layered GO - modified Polymer Glucose Sensor", Wiley Advanced Engineering Materials (<a href="https://doi.org/10.1002/adem.202301067" target="_blank">doi:10.1002/adem.202301067</a>)</li>
-                <li><u><strong>S. Das</strong></u>#, V. Chugh#, C. Das, M. Bhattacharjee, "Non-enzymatic Glucose Sensing Employing a Patterned Substrate Miniaturized Device-on-Mask", IEEE Sensors Letters (<a href="https://doi.org/10.1109/LSENS.2023.3307089" target="_blank">doi:10.1109/LSENS.2023.3307089</a>)(#Equal contribution)</li>
-                <li><u><strong>S. Das</strong></u>, M. Bhattacharjee, K. Thiyagarajan, S. Kodagoda, "Conformable Packaging of a Pressure Sensor for Tactile Perception", IoP Flexible and Printed Electronics (<a href="https://doi.org/10.1088/2058-8585/aced15" target="_blank">doi:10.1088/2058-8585/aced15</a>)</li>
-                <li><u><strong>S. Das</strong></u> and M. Bhattacharjee, "Nonlinear Response Analysis of a Polymer-based Piezoresistive Flexible Tactile Sensor at Low-Pressure", IEEE Sensors Letters (<a href="https://doi.org/10.1109/LSENS.2023.3320986" target="_blank">doi:10.1109/LSENS.2023.3320986</a>)</li>
-                <li>A. Siddiqui, <u><strong>S. Das</strong></u>, M. Bhattacharjee, "Acoustic Sensing Response in Human Tissues for Theranostics and Implants", IEEE Sensors Letters (<a href="https://doi.org/10.1109/LSENS.2023.3251991" target="_blank">doi:10.1109/LSENS.2023.3251991</a>)</li>
-                <li><u><strong>S. Das</strong></u>#, A. Krishnan#, M. Bhattacharjee, "Flexible Piezoresistive Pressure and Temperature Sensor Module for Continuous Monitoring of Cardiac Health", IEEE Journal on Flexible Electronics (<a href="https://doi.org/10.1109/JFLEX.2023.3243877" target="_blank">doi:10.1109/JFLEX.2023.3243877</a>)(# Equal contribution)</li>
-                <li><u><strong>S. Das</strong></u>, M. Bhattacharjee, "Image-based Sensing of Leukonychia for Early Diagnosis of Anemia using a Smartphone Application", IEEE Sensors Letters (<a href="https://doi.org/10.1109/LSENS.2022.3217010" target="_blank">doi:10.1109/LSENS.2022.3217010</a>)</li>
+                <li><u><strong>S. Das</strong></u>, R. Wagner, "Complex Deformation Characteristics of Liposomes during Atomic Force Microscopy Force Curves", Langmuir, 42(17), 11605&ndash;11616 (2026) (<a href="https://doi.org/10.1021/acs.langmuir.5c05071" target="_blank">doi:10.1021/acs.langmuir.5c05071</a>)</li>
+                <li><u><strong>S. Das</strong></u>, K. Thiyagarajan, S. Kodagoda, A. Krishnan, M. Bhattacharjee, "A Novel Tactile Sensing Skin for Surface Perception", IEEE Sensors Journal (2025) (<a href="https://doi.org/10.1109/JSEN.2025.3565586" target="_blank">doi:10.1109/JSEN.2025.3565586</a>)</li>
+                <li><u><strong>S. Das</strong></u>, A. Shrivas, P. Soni, A. Gupta, S. Singh, M. Bhattacharjee, "Quantitative Image Sensing of Tuberculosis Biomarkers Using Rapid Diagnostic Test Kit", IEEE Sensors Journal (2025) (<a href="https://doi.org/10.1109/JSEN.2024.3523750" target="_blank">doi:10.1109/JSEN.2024.3523750</a>)</li>
+                <li>H. Gadalla, Z. Yuan, Z. Chen, F. Alsuwayyid, <u><strong>S. Das</strong></u>, H. Mitra, A. Ardekani, R. Wagner, Y. Yeo, "Effects of nanoparticle deformability on multiscale biotransport", Advanced Drug Delivery Reviews (2024) (<a href="https://doi.org/10.1016/j.addr.2024.115445" target="_blank">doi:10.1016/j.addr.2024.115445</a>)</li>
+                <li>T. Dutta, <u><strong>S. Das</strong></u>, M. Sarkar, M. Bhattacharjee, A. Patra, "Multistate Electrochromic Covalent Organic Framework Film for Electronic Safety Indicator", Chemistry of Materials (2024) (<a href="https://doi.org/10.1021/acs.chemmater.4c00399" target="_blank">doi:10.1021/acs.chemmater.4c00399</a>)</li>
+                <li>A. Siddiqui, <u><strong>S. Das</strong></u>, M. Bhattacharjee, "Nanofillers Embedded Flexible Piezoelectric Polymer Sensor Pad for Robotic and Human Finger Tap Analysis", Sensors and Actuators A: Physical (2024) (<a href="https://doi.org/10.1016/j.sna.2024.115503" target="_blank">doi:10.1016/j.sna.2024.115503</a>)</li>
+                <li>C. Das, <u><strong>S. Das</strong></u>, V. Chugh, M. Bhattacharjee, "Smart 3D Printed Design Assisted Multi-layered GO-modified Polymer Glucose Sensor", Advanced Engineering Materials (2024) (<a href="https://doi.org/10.1002/adem.202301067" target="_blank">doi:10.1002/adem.202301067</a>)</li>
+                <li><u><strong>S. Das</strong></u><sup>#</sup>, V. Chugh<sup>#</sup>, C. Das, M. Bhattacharjee, "Non-enzymatic Glucose Sensing Employing a Patterned Substrate Miniaturized Device-on-Mask", IEEE Sensors Letters (2023) (<a href="https://doi.org/10.1109/LSENS.2023.3307089" target="_blank">doi:10.1109/LSENS.2023.3307089</a>)</li>
+                <li><u><strong>S. Das</strong></u>, M. Bhattacharjee, K. Thiyagarajan, S. Kodagoda, "Conformable Packaging of a Pressure Sensor for Tactile Perception", Flexible and Printed Electronics (2023) (<a href="https://doi.org/10.1088/2058-8585/aced15" target="_blank">doi:10.1088/2058-8585/aced15</a>)</li>
+                <li><u><strong>S. Das</strong></u>, M. Bhattacharjee, "Nonlinear Response Analysis of a Polymer-based Piezoresistive Flexible Tactile Sensor at Low-Pressure", IEEE Sensors Letters (2023) (<a href="https://doi.org/10.1109/LSENS.2023.3320986" target="_blank">doi:10.1109/LSENS.2023.3320986</a>)</li>
+                <li>A. Siddiqui, <u><strong>S. Das</strong></u>, M. Bhattacharjee, "Acoustic Sensing Response in Human Tissues for Theranostics and Implants", IEEE Sensors Letters (2023) (<a href="https://doi.org/10.1109/LSENS.2023.3251991" target="_blank">doi:10.1109/LSENS.2023.3251991</a>)</li>
+                <li><u><strong>S. Das</strong></u><sup>#</sup>, A. Krishnan<sup>#</sup>, M. Bhattacharjee, "Flexible Piezoresistive Pressure and Temperature Sensor Module for Continuous Monitoring of Cardiac Health", IEEE Journal on Flexible Electronics (2023) (<a href="https://doi.org/10.1109/JFLEX.2023.3243877" target="_blank">doi:10.1109/JFLEX.2023.3243877</a>)</li>
+                <li><u><strong>S. Das</strong></u>, M. Bhattacharjee, "Image-based Sensing of Leukonychia for Early Diagnosis of Anemia using a Smartphone Application", IEEE Sensors Letters (2022) (<a href="https://doi.org/10.1109/LSENS.2022.3217010" target="_blank">doi:10.1109/LSENS.2022.3217010</a>)</li>
             </ol>
 
-            <h3>Conference Publication(s)</h3>
+            <h3>Conference Presentation(s)</h3>
             <ol class="publication-list">
-                <li>A. Siddiqui, <u><strong>S. Das</strong></u>, M. Bhattacharjee, "Acoustic Power Distribution Analysis in Different Human Tissues for Bioimplant Application", IEEE International Students' Conference on Electrical, Electronics and Computer Sciences (SCEECS), Bhopal, India, February 2023 (<a href="https://doi.org/10.1109/SCEECS57921.2023.10062978" target="_blank">doi:10.1109/SCEECS57921.2023.10062978</a>) - Oral Presentation.</li>
-                <li><u><strong>S. Das</strong></u>#.V. Chugh#, C. Das, M. Bhattacharjee, "Non-enzymatic Glucose Sensing Employing a Patterned Substrate Miniaturized Device-on-Mask", IEEE Sensors Conference, Vienna, Austria, October 2023 Oral Presentation</li>
+                <li><u><strong>S. Das</strong></u>, R. Wagner, "Complex Deformation Characteristics of Liposomes during Atomic Force Microscopy Force Curves", Materials Research Society Spring Meeting, Hawaii, USA, April 2026 - <strong>Oral Presentation</strong>.</li>
+                <li><u><strong>S. Das</strong></u><sup>#</sup>, V. Chugh<sup>#</sup>, C. Das, M. Bhattacharjee, "Non-enzymatic Glucose Sensing Employing a Patterned Substrate Miniaturized Device-on-Mask", IEEE Sensors Conference, Vienna, Austria, October 2023 - <strong>Oral Presentation</strong>.</li>
+                <li>A. Siddiqui, <u><strong>S. Das</strong></u>, M. Bhattacharjee, "Acoustic Power Distribution Analysis in Different Human Tissues for Bioimplant Application", IEEE International Students' Conference on Electrical, Electronics and Computer Sciences (SCEECS), Bhopal, India, February 2023 (<a href="https://doi.org/10.1109/SCEECS57921.2023.10062978" target="_blank">doi:10.1109/SCEECS57921.2023.10062978</a>) - <strong>Oral Presentation</strong>.</li>
+            </ol>
+        </section>
+
+        <section id="patent">
+            <header class="major">
+                <h2>PATENT APPLICATIONS</h2>
+            </header>
+            <ol class="patent-list">
+                <li>M. Bhattacharjee, <u><strong>S. Das</strong></u>, A. Krishnan, "Multi-sensor monitoring system", (Application Number: 202421022245), 2024.</li>
+                <li>M. Bhattacharjee, <u><strong>S. Das</strong></u>, L. Singh, "Micro/nanostructured flexible multilayered sensors", (Application Number: 202421033902), 2024.</li>
+                <li>M. Bhattacharjee, C. Das, <u><strong>S. Das</strong></u>, V. Chugh, "Substrateless device", (Application Number: 202421018569), 2024.</li>
+                <li>M. Bhattacharjee, <u><strong>S. Das</strong></u>, "A detection system based on colorimetric analysis", (Application Number: 202421008300), 2024.</li>
+                <li>A. Patra, M. Bhattacharjee, T. Kumar Dutta, <u><strong>S. Das</strong></u>, "A smart electronic safety system", (Application Number: 202421031809), 2024.</li>
+                <li>A. Patra, M. Bhattacharjee, M. Sarkar, A. Krishnan, <u><strong>S. Das</strong></u>, "A self-sustainable photoelectric converter for electrochromic system", (Application Number: 202421047377), 2024.</li>
+                <li>M. Bhattacharjee, A. Siddiqui, <u><strong>S. Das</strong></u>, A. Kumar, "A multi-organ theranostic body wearable device", (Application Number: 202421006385), 2023.</li>
+                <li>M. Bhattacharjee, <u><strong>S. Das</strong></u>, "Image sensing assisted health monitoring system and method thereof", (Application Number: 202421030501), 2023.</li>
             </ol>
         </section>
 
@@ -232,16 +237,16 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
             <h2>SKILLS</h2>
             <div class="row skills-grid">
                 <article class="skill-item">
-                    <h3>Programming & Data Analysis</h3>
-                    <p>Python, MATLAB, Machine Learning (basic), Image Processing</p>
+                    <h3>Nanoscale &amp; Biophysical Characterization</h3>
+                    <p>Atomic force microscopy &mdash; force spectroscopy, fast force mapping, nanomechanics, tapping-mode topography (Asylum Research Cypher S/ES, MFP-3D); contact-mechanics modeling (JKR/DMT/Hertz); s-SNOM / nano-FTIR chemical mapping (attocube); FTIR spectroscopy; electrochemical and electrical impedance spectroscopy (ECIS/EIS); dynamic light scattering (DLS); nanoparticle characterization (lipid nanoparticles/liposomes, silica, nanocrystals)</p>
                 </article>
                 <article class="skill-item">
-                    <h3>Scientific & Analytical Tools</h3>
-                    <p>Atomic Force Microscopy (AFM), FTIR Spectroscopy, NanoFTIR, Electrochemical Impedance Spectroscopy (EIS), Materials Characterization</p>
+                    <h3>Programming &amp; Data Analysis</h3>
+                    <p>Python (NumPy, SciPy, scikit-image), MATLAB, C; digital image processing; statistical modeling and analysis; Monte Carlo uncertainty quantification; AI-assisted analysis and automation tools (Claude Code)</p>
                 </article>
                 <article class="skill-item">
-                    <h3>Engineering & Prototyping</h3>
-                    <p>SolidWorks, Wearable Sensors, Biomedical Instrumentation</p>
+                    <h3>Engineering &amp; Prototyping</h3>
+                    <p>SolidWorks, ABAQUS, Ansys HFSS, NI Multisim, Blender; sensor and circuit design&ndash;fabrication&ndash;integration; flexible/wearable sensors; microfluidic device fabrication; FDM and SLA 3D printing</p>
                 </article>
                 <article class="skill-item">
                     <h3>Languages</h3>
@@ -256,11 +261,11 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
             </header>
             <div class="award-item">
                 <div class="item-header">
-                    <h3>Lilly-Purdue research collaboration (LPRC) Student Leader</h3>
-                    <span class="item-meta"><strong>2025</strong></span>
+                    <h3>Lilly Purdue Innovation Institute (LPII) Student Leader</h3>
+                    <span class="item-meta"><strong>Mar. 2025 - Present</strong></span>
                 </div>
                 <ul>
-                    <li>Initiated and coordinated events to foster engagement between Eli Lilly and Purdue, providing skill development opportunities for graduate and undergraduate students.</li>
+                    <li>Formerly the Lilly&ndash;Purdue Research Collaboration (LPRC). Initiated and coordinated Lilly&ndash;Purdue engagement and professional-development events for program researchers and undergraduates: 5+ events per semester with &gt;50 attendees each.</li>
                 </ul>
             </div>
 
@@ -269,7 +274,8 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                     <h3>Reviewer for Journals and Conferences</h3>
                 </div>
                 <ul>
-                    <li>Evaluated submitted research papers for quality, significance, and publication suitability in peer-reviewed journals and conferences.</li>
+                    <li>Evaluated submitted manuscripts for quality, significance, and publication suitability in peer-reviewed journals and conferences.</li>
+                    <li><strong>2025-2026:</strong> Elsevier Measurement (Journal)</li>
                     <li><strong>2024:</strong> IEEE Transactions on Industrial Electronics (Journal)</li>
                     <li><strong>2024:</strong> IOP Flexible and Printed Electronics (Journal)</li>
                     <li><strong>2024:</strong> IEEE Sensors Letters (Journal)</li>
@@ -283,17 +289,17 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                     <span class="item-meta"><strong>2022</strong></span>
                 </div>
                 <ul>
-                    <li>Selected for the 2022 MITACS Globalink Research Internship to conduct research at a Canadian university.</li>
+                    <li>Selected for the 2022 MITACS Globalink Research Internship, a competitive international research award; hosted at the University of Western Ontario, Canada.</li>
                 </ul>
             </div>
 
             <div class="award-item">
                 <div class="item-header">
-                    <h3>Indian Academy of Science Summer Research Fellow</h3>
+                    <h3>Indian Academy of Sciences Summer Research Fellowship</h3>
                     <span class="item-meta"><strong>2021</strong></span>
                 </div>
                 <ul>
-                    <li>Selected for the 2021 IAS Summer Research Fellowship Program, supplementing year-round research activities.</li>
+                    <li>Selected for the 2021 IAS Summer Research Fellowship, a national merit-based research fellowship; hosted at IMSc Chennai.</li>
                 </ul>
             </div>
 
@@ -331,13 +337,13 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                 <h3>Teaching and Mentoring</h3>
                 <h4>Purdue University</h4>
                 <ul>
-                    <li><strong>Fall 2024-2025, Spring 2024-2025: </strong>Mentored 2 undergraduate VIP teams and 3 ME498/499 research students on projects involving microfluidic drug transport models and AFM applications, with findings presented at the Purdue Undergraduate Research Conference.</li>
-                    <li><strong>Summer 2024: </strong>Instructed high school students in SolidWorks 3D modelling and Creality Ender 3 operations during a one-week 3D printing summer course.</li>
-                    <li><strong>Fall 2024-2025: </strong>Performed an AFM demonstration at the Lafayette (IN) Manufacturing Expo, showcasing regional industry impact to local schools.</li>
+                    <li><strong>Spring 2024 - Spring 2025: </strong>Mentored 5 undergraduate researchers (2 VIP teams and 3 ME 498/499 independent-study students) on microfluidic drug-transport models and AFM characterization, resulting in 1 poster and 3 presentations at the Purdue Undergraduate Research Conference.</li>
+                    <li><strong>Summer 2024: </strong>Designed and delivered a week-long SolidWorks 3D-modelling and 3D-printing (Creality Ender 3) workshop for 20 pre-college students; 100% completed a functional prototype.</li>
+                    <li><strong>Fall 2024, Fall 2025: </strong>Performed AFM demonstrations at the Lafayette (IN) Manufacturing Expo, showcasing nanoscale metrology and regional industry impact to local schools.</li>
                 </ul>
                 <h4>Indian Institute of Science Education and Research Bhopal</h4>
                 <ul>
-                    <li><strong>Spring 2023: </strong>Teaching assistant for ECS413/613 Smart Sensing Technologies.</li>
+                    <li><strong>Spring 2023: </strong>Teaching assistant for ECS 413/613 Smart Sensing Technologies.</li>
                 </ul>
             </div>
         </section>
@@ -350,7 +356,7 @@ with the goal of enabling better patient compliance as a part of the Eli Lilly-P
                     <li><a href="https://github.com/subham23" class="icon brands fa-github"><span class="label">Github</span></a></li>
                     <li><a href="https://scholar.google.com/citations?user=hoQ5pN0AAAAJ&hl=en" class="icon brands fa-google-scholar"><span class="label">Google Scholar</span></a></li>
                     <li><a href="https://orcid.org/0000-0001-9819-3573" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
-                    <li><a href="mailto:subham.ds@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                    <li><a href="mailto:das244@purdue.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
             </div>
         </footer>
